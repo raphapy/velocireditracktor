@@ -31,3 +31,10 @@ SERVER.PORT=8080
 ```bash
 PG.POOL.MAX_SIZE=30
 ```
+6. Data is stored in redirects table.
+```bash
+select * from redirects;
+```
+
+# WIP
+1. Store a more complete information about the request in jsob format.
