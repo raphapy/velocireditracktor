@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+  postgres:
+    image: postgres:11-alpine
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: velocireditracktor
+      POSTGRES_USER: velocireditracktor
+      POSTGRES_DB: velocireditracktor_db
+    ports:
+      - 5432:5432
+
