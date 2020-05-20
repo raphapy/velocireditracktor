@@ -1,2 +1,2 @@
 # velocireditracktor
-A fast velociraptor for url tracking and redirect writen in Rust
+A fast velociraptor, writen in Rust, for url tracking and redirect.
