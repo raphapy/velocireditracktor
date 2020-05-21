@@ -2,12 +2,13 @@
 A fast velociraptor, writen in Rust, for url tracking and redirect.
 
 # Requeriments
-* Docker
+* Postgres
+* Docker (Optional)
 * Rust and Cargo 1.43.*
 
 # Installation and config
 
-1. Run postgres instance with docker compose. (If you change connection parameters in docker-compose.yml file, you need to reflect the same changes in .env file)
+1. Run postgres instance with docker compose. (If you change connection parameters in docker-compose.yml file, you need to reflect the same changes in .env file). You can use a non-containered postgres instance for production.
 ```bash
 docker-compose up -d
 ```
@@ -37,4 +38,5 @@ select * from redirects;
 ```
 
 # WIP
-1. Store a more complete information about the request in jsob format.
+1. Testing
+2. Store a more complete information about the request in jsob format.
