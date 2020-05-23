@@ -1,5 +1,5 @@
 # velocireditracktor
-A fast velociraptor, writen in Rust, for url tracking and redirect.
+A fast velociraptor, written in Rust, for url tracking and redirect.
 
 # Requeriments
 * Postgres
